@@ -70,27 +70,21 @@ HORIZONTECHX_CUSTOMER_CHURN_ANALYTICS/
 └── .gitignore
 
 
-
-![Customer Churn & Revenue Risk Dashboard](visualizations/dashboard.png)
-
-
 📊 Dashboard Preview
 
 📈 Key Performance Indicators
-
-Metric	Result
+Metric	                        Result
 Total Customers	                7,043
 Retained Customers	            5,174
 Churned Customers	            1,869
 Overall Churn Rate	            26.54%
 Monthly Revenue at Risk	        $139,130.85
-High-Risk Customers    	        1,919
+High-Risk Customers	            1,919
 High-Risk Customer Percentage	27.25%
 Monthly Revenue Exposure	    $151,723.50
 
 
 🔍 Key Insights
-
 1️⃣ Contract Type
 
 Month-to-month customers have the highest churn rate at 42.71%.
@@ -130,7 +124,6 @@ $151,723.50 monthly revenue exposure
 📊 Power BI Dashboard
 
 The interactive Power BI dashboard includes:
-
 Customer KPI cards
 Overall churn rate
 Churn rate by contract type
@@ -155,7 +148,7 @@ Monitor revenue exposure regularly to reduce potential financial losses.
 
 🧹 Data Quality
 
-Data Quality Check    	Result
+Data Quality Check	    Result
 Total Rows	            7,043
 Total Columns	        27
 Duplicate Rows	        0
@@ -165,13 +158,12 @@ Maximum Risk Factors	4
 
 📁 Dataset
 
-The cleaned dataset is available in:  dataset/Telco-Customer-Churn-Cleaned.csv
+The cleaned dataset is available here:  Telco-Customer-Churn-Cleaned.csv
 
 
 📓 Analysis Notebook
 
-The complete data cleaning, exploratory data analysis, visualization, churn analysis, and risk analysis are available in:  notebooks/Customer_Churn_Analysis.ipynb
-
+The complete data cleaning, exploratory analysis, visualization, churn analysis, and risk analysis are available here:  Customer_Churn_Analysis.ipynb
 
 📊 Visualizations
 
@@ -197,8 +189,15 @@ Kalaiyarasi E
 
 Data Analytics | Python | Power BI
 
+
 ⭐ Project Summary
 
 This project demonstrates an end-to-end Customer Churn and Revenue Risk Analytics workflow, starting from data cleaning and exploratory analysis in Python to interactive dashboard development using Power BI.
 
-The analysis helps businesses identify high-risk customers, understand churn drivers, quantify revenue exposure, and design effective customer retention strategies.
+The analysis helps businesses:
+
+Identify high-risk customers
+Understand major churn drivers
+Quantify revenue exposure
+Analyze customer risk factors
+Design effective customer retention strategies
