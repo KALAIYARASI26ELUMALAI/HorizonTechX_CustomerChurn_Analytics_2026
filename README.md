@@ -1,5 +1,13 @@
 # 📊 Customer Churn Analysis & Revenue Risk Dashboard
 
+
+## 🌐 Live Project
+
+👉 [🚀 View Live Project](YOUR_GITHUB_PAGES_LINK)
+
+📂 [View GitHub Repository](https://github.com/KALAIYARASI26ELUMALAI/HorizonTechX_CustomerChurn_Analytics_2026)
+
+
 ## 📌 Project Overview
 
 This project analyzes customer churn behavior and identifies revenue risks using **Python and Power BI**.
