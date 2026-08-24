@@ -71,16 +71,14 @@ HORIZONTECHX_CUSTOMER_CHURN_ANALYTICS/
 
 
 
-<p align="center">
-  <img src="visualizations/dashboard.png" alt="Customer Churn & Revenue Risk Dashboard" width="900"/>
-</p>
+![Customer Churn & Revenue Risk Dashboard](visualizations/dashboard.png)
 
 
 📊 Dashboard Preview
 
 📈 Key Performance Indicators
 
-Metric                      	Result
+Metric	Result
 Total Customers	                7,043
 Retained Customers	            5,174
 Churned Customers	            1,869
