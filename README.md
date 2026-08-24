@@ -78,7 +78,7 @@ HORIZONTECHX_CUSTOMER_CHURN_ANALYTICS/
 
 📈 Key Performance Indicators
 
-Metric	Result
+Metric                      	Result
 Total Customers	                7,043
 Retained Customers	            5,174
 Churned Customers	            1,869
