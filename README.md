@@ -37,7 +37,7 @@ The main objective is to understand why customers churn, identify high-risk cust
 
 ## 📂 Project Structure
 
-```text
+
 HORIZONTECHX_CUSTOMER_CHURN_ANALYTICS/
 │
 ├── dataset/
