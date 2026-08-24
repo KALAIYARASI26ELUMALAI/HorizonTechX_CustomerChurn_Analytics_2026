@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Churn Analysis & Revenue Risk Dashboard</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fb;
+            color: #1f2937;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        header p {
+            font-size: 18px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .buttons {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            margin: 8px;
+            border-radius: 8px;
+            text-decoration: none;
+            background: #2563eb;
+            color: white;
+            font-weight: bold;
+        }
+
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .section h2 {
+            margin-bottom: 20px;
+            color: #111827;
+        }
+
+        .dashboard {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+
+        .kpis {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .kpi {
+            padding: 25px;
+            background: #f3f4f6;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .kpi h3 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .insights li {
+            margin-bottom: 12px;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>📊 Customer Churn Analysis & Revenue Risk Dashboard</h1>
+
+    <p>
+        An end-to-end Data Analytics project using Python and Power BI
+        to analyze customer churn, identify high-risk customers,
+        and measure revenue exposure.
+    </p>
+</header>
+
+<div class="container">
+
+    <div class="buttons">
+
+        <a class="btn"
+           href="https://github.com/KALAIYARASI26ELUMALAI/HorizonTechX_CustomerChurn_Analytics_2026"
+           target="_blank">
+           📂 GitHub Repository
+        </a>
+
+        <a class="btn"
+           href="PowerBI/Customer_Churn_Revenue_Risk_Dashboard.pdf"
+           target="_blank">
+           📄 View Dashboard PDF
+        </a>
+
+    </div>
+
+    <div class="section">
+
+        <h2>📊 Dashboard Preview</h2>
+
+        <img
+            src="visualizations/dashboard.png"
+            alt="Customer Churn Power BI Dashboard"
+            class="dashboard">
+
+    </div>
+
+    <div class="section">
+
+        <h2>📈 Key Performance Indicators</h2>
+
+        <div class="kpis">
+
+            <div class="kpi">
+                <h3>7,043</h3>
+                <p>Total Customers</p>
+            </div>
+
+            <div class="kpi">
+                <h3>1,869</h3>
+                <p>Churned Customers</p>
+            </div>
+
+            <div class="kpi">
+                <h3>26.54%</h3>
+                <p>Overall Churn Rate</p>
+            </div>
+
+            <div class="kpi">
+                <h3>$139,130.85</h3>
+                <p>Monthly Revenue at Risk</p>
+            </div>
+
+            <div class="kpi">
+                <h3>1,919</h3>
+                <p>High-Risk Customers</p>
+            </div>
+
+            <div class="kpi">
+                <h3>$151,723.50</h3>
+                <p>Monthly Revenue Exposure</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section">
+
+        <h2>🔍 Key Insights</h2>
+
+        <ul class="insights">
+
+            <li>
+                Month-to-month customers showed the highest churn rate
+                at <strong>42.71%</strong>.
+            </li>
+
+            <li>
+                Customers with 0–12 months tenure had the highest churn
+                rate at <strong>47.44%</strong>.
+            </li>
+
+            <li>
+                Electronic Check customers had a churn rate of
+                <strong>45.29%</strong>.
+            </li>
+
+            <li>
+                Fiber Optic customers showed a churn rate of
+                <strong>41.89%</strong>.
+            </li>
+
+            <li>
+                Customers with 4 risk factors had a churn rate of
+                <strong>71.16%</strong>.
+            </li>
+
+        </ul>
+
+    </div>
+
+    <div class="section">
+
+        <h2>🛠️ Technologies Used</h2>
+
+        <p>
+            Python | Pandas | NumPy | Matplotlib |
+            Jupyter Notebook | Power BI | DAX |
+            Git | GitHub
+        </p>
+
+    </div>
+
+    <div class="section">
+
+        <h2>💡 Business Recommendations</h2>
+
+        <ul>
+
+            <li>Focus retention campaigns on month-to-month customers.</li>
+
+            <li>Improve onboarding during the first 12 months.</li>
+
+            <li>Investigate churn among Fiber Optic customers.</li>
+
+            <li>Prioritize customers with 3–4 risk factors.</li>
+
+            <li>Create personalized retention offers for high-risk customers.</li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<footer>
+
+    <p>
+        👩‍💻 Created by <strong>Kalaiyarasi E</strong>
+    </p>
+
+    <p>
+        Data Analytics | Python | Power BI
+    </p>
+
+</footer>
+
+</body>
+</html>
