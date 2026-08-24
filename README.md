@@ -71,7 +71,9 @@ HORIZONTECHX_CUSTOMER_CHURN_ANALYTICS/
 
 
 
-![Customer Churn & Revenue Risk Dashboard](visualizations/dashboard.png)
+<p align="center">
+  <img src="visualizations/dashboard.png" alt="Customer Churn & Revenue Risk Dashboard" width="900"/>
+</p>
 
 
 📊 Dashboard Preview
