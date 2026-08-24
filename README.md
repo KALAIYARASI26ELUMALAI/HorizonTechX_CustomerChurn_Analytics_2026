@@ -37,7 +37,7 @@ The main objective is to understand why customers churn, identify high-risk cust
 
 ## 📂 Project Structure
 
-
+```text
 HORIZONTECHX_CUSTOMER_CHURN_ANALYTICS/
 │
 ├── dataset/
@@ -68,136 +68,163 @@ HORIZONTECHX_CUSTOMER_CHURN_ANALYTICS/
 │
 ├── README.md
 └── .gitignore
+```
 
+---
 
-📊 Dashboard Preview
+## 📊 Dashboard Preview
 
-📈 Key Performance Indicators
-Metric	                        Result
-Total Customers	                7,043
-Retained Customers	            5,174
-Churned Customers	            1,869
-Overall Churn Rate	            26.54%
-Monthly Revenue at Risk	        $139,130.85
-High-Risk Customers	            1,919
-High-Risk Customer Percentage	27.25%
-Monthly Revenue Exposure	    $151,723.50
+![Customer Churn & Revenue Risk Dashboard](visualizations/dashboard.png)
 
+---
 
-🔍 Key Insights
-1️⃣ Contract Type
+## 📈 Key Performance Indicators
 
-Month-to-month customers have the highest churn rate at 42.71%.
+| Metric | Result |
+|---|---:|
+| Total Customers | 7,043 |
+| Retained Customers | 5,174 |
+| Churned Customers | 1,869 |
+| Overall Churn Rate | 26.54% |
+| Monthly Revenue at Risk | $139,130.85 |
+| High-Risk Customers | 1,919 |
+| High-Risk Customer Percentage | 27.25% |
+| Monthly Revenue Exposure | $151,723.50 |
 
-2️⃣ Customer Tenure
+---
 
-Customers with 0–12 months tenure have the highest churn rate at 47.44%.
+## 🔍 Key Insights
 
-3️⃣ Payment Method
+### 1️⃣ Contract Type
 
-Customers using Electronic Check have the highest churn rate at 45.29%.
+Month-to-month customers have the highest churn rate at **42.71%**.
 
-4️⃣ Internet Service
+### 2️⃣ Customer Tenure
 
-Fiber Optic customers have a churn rate of 41.89%.
+Customers with **0–12 months tenure** have the highest churn rate at **47.44%**.
 
-5️⃣ Senior Citizens
+### 3️⃣ Payment Method
 
-Senior Citizens have a churn rate of 41.68%.
+Customers using **Electronic Check** have the highest churn rate at **45.29%**.
 
-6️⃣ Risk Factors
+### 4️⃣ Internet Service
 
-Customers with 4 risk factors have a churn rate of 71.16%.
+**Fiber Optic** customers have a churn rate of **41.89%**.
 
+### 5️⃣ Senior Citizens
 
-💰 Revenue Risk Analysis
+Senior Citizens have a churn rate of **41.68%**.
+
+### 6️⃣ Risk Factors
+
+Customers with **4 risk factors** have a churn rate of **71.16%**.
+
+---
+
+## 💰 Revenue Risk Analysis
 
 The analysis identified:
 
-1,869 churned customers
-$139,130.85 monthly revenue at risk
-1,919 high-risk customers
-27.25% of customers classified as high-risk
-$151,723.50 monthly revenue exposure
+- **1,869** churned customers
+- **$139,130.85** monthly revenue at risk
+- **1,919** high-risk customers
+- **27.25%** of customers classified as high-risk
+- **$151,723.50** monthly revenue exposure
 
+---
 
-📊 Power BI Dashboard
+## 📊 Power BI Dashboard
 
 The interactive Power BI dashboard includes:
-Customer KPI cards
-Overall churn rate
-Churn rate by contract type
-Churn rate by tenure
-Churn rate by payment method
-Churn rate by internet service
-Churn rate by risk factor count
-Revenue at risk
-High-risk customer analysis
 
+- Customer KPI cards
+- Overall churn rate
+- Churn rate by contract type
+- Churn rate by tenure
+- Churn rate by payment method
+- Churn rate by internet service
+- Churn rate by risk factor count
+- Revenue at risk
+- High-risk customer analysis
 
-💡 Business Recommendations
+---
 
-Focus retention campaigns on month-to-month customers.
-Provide stronger onboarding for customers in their first 12 months.
-Investigate churn among Fiber Optic customers.
-Analyze customer experience among Electronic Check users.
-Prioritize customers with 3–4 risk factors.
-Create personalized retention offers for high-risk customers.
-Monitor revenue exposure regularly to reduce potential financial losses.
+## 💡 Business Recommendations
 
+- Focus retention campaigns on month-to-month customers.
+- Provide stronger onboarding for customers in their first 12 months.
+- Investigate churn among Fiber Optic customers.
+- Analyze customer experience among Electronic Check users.
+- Prioritize customers with 3–4 risk factors.
+- Create personalized retention offers for high-risk customers.
+- Monitor revenue exposure regularly to reduce potential financial losses.
 
-🧹 Data Quality
+---
 
-Data Quality Check	    Result
-Total Rows	            7,043
-Total Columns	        27
-Duplicate Rows	        0
-Missing Values	        0
-Minimum Risk Factors	0
-Maximum Risk Factors	4
+## 🧹 Data Quality
 
-📁 Dataset
+| Data Quality Check | Result |
+|---|---:|
+| Total Rows | 7,043 |
+| Total Columns | 27 |
+| Duplicate Rows | 0 |
+| Missing Values | 0 |
+| Minimum Risk Factors | 0 |
+| Maximum Risk Factors | 4 |
 
-The cleaned dataset is available here:  Telco-Customer-Churn-Cleaned.csv
+---
 
+## 📁 Dataset
 
-📓 Analysis Notebook
+The cleaned dataset is available here:
 
-The complete data cleaning, exploratory analysis, visualization, churn analysis, and risk analysis are available here:  Customer_Churn_Analysis.ipynb
+[**Telco-Customer-Churn-Cleaned.csv**](dataset/Telco-Customer-Churn-Cleaned.csv)
 
-📊 Visualizations
+---
+
+## 📓 Analysis Notebook
+
+The complete data cleaning, exploratory analysis, visualization, churn analysis, and risk analysis are available here:
+
+[**Customer_Churn_Analysis.ipynb**](notebooks/Customer_Churn_Analysis.ipynb)
+
+---
+
+## 📊 Visualizations
 
 The project includes visualizations covering:
 
-Churn by Contract
-Churn by Tenure
-Churn by Payment Method
-Churn by Internet Service
-Churn by Senior Citizen Status
-Churn by Partner Status
-Churn by Dependents Status
-Churn by Risk Factors
-Average Monthly Charges by Churn
-Overall Churn Distribution
-Revenue at Risk
-High-Risk Revenue Exposure
+- Churn by Contract
+- Churn by Tenure
+- Churn by Payment Method
+- Churn by Internet Service
+- Churn by Senior Citizen Status
+- Churn by Partner Status
+- Churn by Dependents Status
+- Churn by Risk Factors
+- Average Monthly Charges by Churn
+- Overall Churn Distribution
+- Revenue at Risk
+- High-Risk Revenue Exposure
 
+---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Kalaiyarasi E
+**Kalaiyarasi E**
 
 Data Analytics | Python | Power BI
 
+---
 
-⭐ Project Summary
+## ⭐ Project Summary
 
-This project demonstrates an end-to-end Customer Churn and Revenue Risk Analytics workflow, starting from data cleaning and exploratory analysis in Python to interactive dashboard development using Power BI.
+This project demonstrates an end-to-end **Customer Churn and Revenue Risk Analytics** workflow, starting from data cleaning and exploratory analysis in Python to interactive dashboard development using Power BI.
 
 The analysis helps businesses:
 
-Identify high-risk customers
-Understand major churn drivers
-Quantify revenue exposure
-Analyze customer risk factors
-Design effective customer retention strategies
+- Identify high-risk customers
+- Understand major churn drivers
+- Quantify revenue exposure
+- Analyze customer risk factors
+- Design effective customer retention strategies
