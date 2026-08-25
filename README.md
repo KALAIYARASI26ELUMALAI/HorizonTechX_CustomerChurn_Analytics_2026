@@ -3,7 +3,8 @@
 
 ## 🌐 Live Project
 
-👉 [🚀 View Live Project](YOUR_GITHUB_PAGES_LINK)
+🚀 [View Live Project](https://kalaiyarasi26elumalai.github.io/HorizonTechX_CustomerChurn_Analytics_2026/)
+
 
 📂 [View GitHub Repository](https://github.com/KALAIYARASI26ELUMALAI/HorizonTechX_CustomerChurn_Analytics_2026)
 
